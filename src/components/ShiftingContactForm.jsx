@@ -40,8 +40,8 @@ const ShiftingContactForm = () => {
     })
       .then(response => {
         if (response.ok) {
-          resetForm();
           router.push('/thank-you');  // Redirect to the thank-you page
+          resetForm();
         } else {
           return response.json().then(errorData => {
             alert(`Error submitting form: ${errorData.message}`);
@@ -150,7 +150,7 @@ const Form = ({
 
       {/* Info */}
       <div className="mb-6">
-        <p className="mb-2 text-xl">I'd love to ask about...</p>
+        <p className="mb-2 text-xl">I&apos;d love to ask about...</p>
         <textarea
           name="info"
           value={values.info || ''}

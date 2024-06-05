@@ -60,7 +60,7 @@ export default function Uses() {
             switch between applications and work more efficiently.
           </Tool>
           <Tool title="Logitech G Pro">
-            I've opted for a sleek and ergonomic mouse that offers both style
+            I&apos;ve opted for a sleek and ergonomic mouse that offers both style
             and comfort. With vibrant RGB lighting and two programmable side
             buttons, it enables me to customize mouse binds for enhanced
             productivity

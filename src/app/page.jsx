@@ -1,4 +1,4 @@
-'use client'
+
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -21,7 +21,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import { useRouter } from 'next/navigation'
+
 
 function BriefcaseIcon(props) {
   return (
@@ -203,7 +203,7 @@ export default async function Home() {
             Software Designer, Code Connoisseur, and Tech Enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Joshua, a software engineer located in Chicago, Illinois. My
+            I&apos;m Joshua, a software engineer located in Chicago, Illinois. My
             passion for coding and technology, combined with my dedication to
             ongoing learning and adept problem-solving, positions me as a
             versatile and capable software engineer ready to tackle a wide range

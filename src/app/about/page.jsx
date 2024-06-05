@@ -81,7 +81,7 @@ export default function About() {
             <p>
               Throughout my journey, Ive acquired a diverse skill set in
               software engineering, encompassing various technologies and
-              methodologies. I'm proficient in utilizing frameworks such as
+              methodologies. I&apos;m proficient in utilizing frameworks such as
               React.js for front-end development and Node.js with Express.js for
               back-end solutions. My proficiency in these technologies, coupled
               with a commitment to continuous learning and problem-solving,
@@ -89,7 +89,7 @@ export default function About() {
               tackle a wide range of challenges in the field.
             </p>
             <p>
-              Now, as I pivot towards my dream career, I'm eager to immerse
+              Now, as I pivot towards my dream career, I&apos;m eager to immerse
               myself further in coding and technology. My aim is to not only
               refine my skills but to also give back to the community that has
               inspired me so much. Through the discipline, innovation, and
