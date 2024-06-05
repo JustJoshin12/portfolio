@@ -32,7 +32,7 @@ Now, as I pivot towards my dream career, I'm eager to immerse myself further in 
 ## Live Website
 
 You can visit my live portfolio website to see my projects and learn more about my work:
-- **Website:** [Joshua Smith Portfolio](https://www.example.com)
+- **Website:** [Joshua Smith Portfolio](https://portfolio-joshsdev.vercel.app)
 
 ## Contact
 
