@@ -10,7 +10,7 @@ export const metadata = {
       'Joshua Smith - Software Developer , Full-Stack Enthusiast , Tech Innovator',
   },
   description:
-    "I'm Joshua Smith, a software designer and tech enthusiast based in Chicago. I'm committed to developing innovative technologies that make space exploration accessible to all. Join me on this thrilling journey to push the boundaries of technology and explore new frontiers.",
+    "I'm Joshua Smith, a software designer and tech enthusiast based in Chicago. My passion for coding and technology, combined with my dedication to ongoing learning and adept problem-solving, positions me as a versatile and capable software engineer ready to tackle a wide range of challenges in the field.",
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
