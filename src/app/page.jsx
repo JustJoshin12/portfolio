@@ -156,7 +156,7 @@ function Resume() {
         ))}
       </ol>
       <a
-        href="/Joshua-Smith-Resume2.pdf"
+        href="/Joshua-Smith-Resume3.pdf"
         download
         className="group mt-6 flex w-full items-center justify-center rounded-md bg-gray-200 p-3 text-gray-700 hover:bg-gray-300 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
       >
