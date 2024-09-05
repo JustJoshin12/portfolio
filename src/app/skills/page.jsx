@@ -38,75 +38,80 @@ export default function Speaking() {
     >
       <div className="space-y-20">
         <SpinningLogos />
-        <SkillSection title="Programming Languages">
+        <SkillSection title="Programming Languages/Languages">
           <Appearance
             href="#"
             title="JavaScript"
-            description="A powerful scripting language used to create dynamic and interactive web content. Skilled in DOM manipulation, event handling, and utilizing ES6+ features for efficient coding."
+            description="Developed dynamic, responsive web applications using JavaScript, implementing interactive features such as real-time data updates, form validations, and user authentication to enhance user experience."
           />
           <Appearance
             href="#"
             title="HTML"
-            description=" The foundational language for structuring web content. Proficient in creating semantic, accessible, and well-organized markup to ensure a strong base for any web project."
+            description="Collaborated with designers to translate wireframes and mockups into fully functional web pages, ensuring pixel-perfect implementation and a consistent user interface across different devices."
           />
           <Appearance
             href="#"
             title="CSS"
-            description="The styling language that brings web designs to life. Expert in crafting responsive, visually appealing layouts with CSS."
+            description="Styled and maintained responsive web designs using CSS, ensuring consistent and visually appealing layouts across different devices and screen sizes. Utilized media queries, flexbox, and grid to create adaptive designs."
+          />
+          <Appearance
+            href="#"
+            title="GraphQL"
+            description="Learned key aspects of GraphQL, including schema design, query optimization, and resolving nested queries. This experience enhanced my ability to create flexible and efficient APIs tailored to the needs of various clients."
           />
         </SkillSection>
         <SkillSection title="Frameworks/Libraries">
           <Appearance
             href="#"
             title="React JS"
-            description="A powerful library for building dynamic and interactive user interfaces. Proficient in creating reusable components, managing state with hooks, and leveraging the virtual DOM for high-performance web applications."
+            description="Optimized application performance by leveraging React's state management, lifecycle methods, and hooks like useState and useEffect, resulting in faster load times and smoother user interactions."
           />
           <Appearance
             href="#"
             title="Next JS"
-            description="A robust framework for server-rendered React applications. Skilled in building fast, scalable web applications with features like static site generation, server-side rendering, and API routes for seamless performance and enhanced SEO."
+            description="Developed server-rendered and static websites using Next.js, leveraging its built-in routing and API routes to create fast, SEO-friendly web applications. Utilized static generation and server-side rendering to optimize page load times."
           />
           <Appearance
             href="#"
             title="Tailwind CSS"
-            description=" A utility-first CSS framework for rapid UI development. Experienced in using Tailwind CSS to create responsive, customizable designs with minimal effort and highly maintainable code."
+            description="Designed responsive and custom UI components using Tailwind CSS, leveraging its utility-first approach to create consistent, scalable styles directly within the HTML markup, resulting in faster development and easier maintenance."
           />
           <Appearance
             href="#"
             title="Node JS"
-            description=" A powerful runtime environment for executing JavaScript on the server side. Skilled in building scalable and efficient backend applications, handling asynchronous operations, and utilizing frameworks like Express.js for robust API development."
+            description="Built scalable backend services using Node.js, implementing RESTful APIs and handling real-time data processing with WebSockets, enabling efficient communication between the server and client."
           />
           <Appearance
             href="#"
             title="Framer Motion"
-            description="An advanced animation library for React. Proficient in creating smooth, complex animations and transitions to enhance user experiences, with a focus on performance and ease of use."
+            description="Implemented smooth and interactive animations using Framer Motion, enhancing user experience by adding intuitive and responsive animations to React components, such as transitions, hover effects, and complex motion sequences."
           />
           <Appearance
             href="#"
             title="Redux"
-            description=" A predictable state container for JavaScript apps. Experienced in managing application state, implementing actions and reducers, and integrating with React to create scalable and maintainable state management solutions."
+            description="Learned advanced Redux concepts, including the use of selectors for efficient state access, normalization of state to avoid redundancy, and integrating Redux with React hooks for a more modern approach to state management."
           />
           <Appearance
             href="#"
             title="Material UI"
-            description="A React component library for implementing Google's Material Design. Skilled in using Material-UI to create visually consistent, responsive, and user-friendly interfaces with pre-built components and customization options."
+            description="Designed and developed user interfaces using Material-UI, implementing responsive and accessible components that adhere to Google's Material Design guidelines, resulting in a cohesive and professional user experience."
           />
           <Appearance
             href="#"
             title="Express JS"
-            description="A fast, minimalist web framework for Node.js. Proficient in building robust server-side applications and APIs, handling routing, middleware, and integrating with databases for efficient backend development."
+            description="Built RESTful APIs using Express.js, handling routing, middleware, and error handling to create robust and scalable backend services that efficiently serve client requests."
           />
         </SkillSection>
         <SkillSection title="CS Fundamentals">
           <Appearance
             href="#"
             title="Data Structures"
-            description="Fundamental concepts for organizing and managing data efficiently. Experienced in implementing and utilizing various data structures"
+            description="Learned to choose appropriate data structures based on time and space complexity considerations, enhancing the scalability and efficiency of solutions in both frontend and backend development."
           />
           <Appearance
             href="#"
             title="Algorithms"
-            description=" Essential procedures for solving computational problems efficiently. Skilled in designing and implementing algorithms for sorting, searching, and optimization, with a focus on performance, scalability, and problem-solving strategies."
+            description="Learned to evaluate algorithmic efficiency by analyzing time and space complexity, enabling the selection of the most appropriate algorithms for specific tasks and ensuring optimal performance in software applications."
           />
           <Appearance
             href="#"
@@ -116,34 +121,49 @@ export default function Speaking() {
           <Appearance
             href="#"
             title="Object Oriented Programming"
-            description=" A programming paradigm based on the concept of 'objects' which contain data and methods. Proficient in using OOP principles such as encapsulation, inheritance, polymorphism, and abstraction to design modular, reusable, and maintainable code."
-          />
+            description="Designed and implemented OOP-based applications, using core principles such as encapsulation, inheritance, polymorphism, and abstraction to create modular, reusable, and maintainable code."
+          />       
           <Appearance
             href="#"
             title="MongoDB"
-            description="A NoSQL database known for its flexibility and scalability. Skilled in designing and managing document-oriented databases, performing CRUD operations, and leveraging features like indexing and aggregation for efficient data handling."
+            description="Designed and implemented NoSQL databases using MongoDB, structuring data in flexible, schema-less collections that allowed for efficient storage and retrieval of complex, hierarchical data."
           />
         </SkillSection>
         <SkillSection title="Version Control & Tools">
           <Appearance
             href="#"
             title="Git"
-            description="A distributed version control system for tracking changes in source code. Proficient in using Git for version control, branching and merging, collaborating on projects, and maintaining a clean and organized codebase."
+            description="Managed code versions using Git, implementing branching and merging strategies to collaborate effectively with team members, ensuring a smooth and conflict-free development process."
           />
           <Appearance
             href="#"
             title="GitHub"
-            description=" A web-based platform for version control and collaboration. Experienced in using GitHub to host repositories, manage pull requests, collaborate with teams"
+            description="Implemented CI/CD workflows using GitHub Actions, automating testing, building, and deployment processes, which increased the efficiency and reliability of delivering software updates."
           />
           <Appearance
             href="#"
             title="VS Code"
-            description="A versatile code editor with a rich ecosystem of extensions. Proficient in using Visual Studio Code for efficient coding, debugging, and version control, leveraging its features to enhance productivity and streamline development workflows."
+            description="Utilized integrated tools such as Git, terminal, and debuggers within VS Code to streamline the development process, reducing the need to switch between different applications and improving focus and workflow."
           />
           <Appearance
             href="#"
             title="Rally"
-            description="A powerful project management tool designed for agile development. Experienced in using Rally to track user stories, manage backlogs, plan sprints, and ensure seamless collaboration and project execution."
+            description="Collaborated with cross-functional teams by utilizing Rally's dashboards and reporting tools to monitor progress, identify bottlenecks, and adjust sprint planning as needed, leading to more efficient and successful project outcomes."
+          />
+          <Appearance
+            href="#"
+            title="Jira"
+            description="Learned to optimize Jira for team collaboration, improving communication and transparency within the team. Gained experience in setting up automations to streamline repetitive tasks, reducing manual workload and increasing efficiency."
+          />
+          <Appearance
+            href="#"
+            title="Notion"
+            description="Maintained comprehensive project documentation using Notion, creating centralized repositories for project resources, meeting notes, and task lists. This ensured easy access to information for all team members"
+          />
+          <Appearance
+            href="#"
+            title="Docker"
+            description="Learned Docker best practices, including image optimization, efficient layering, and security considerations, which enhanced the performance and security of deployed applications."
           />
         </SkillSection>
       </div>

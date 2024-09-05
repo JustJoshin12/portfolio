@@ -122,6 +122,13 @@ function Resume() {
       },
     },
     {
+      company: 'SlopGoblins, NPO',
+      title: 'Student',
+      logo: logoTripleTen,
+      start: 'June 2024',
+      end: 'Aug 2024',
+    },
+    {
       company: 'Triple Ten',
       title: 'Student',
       logo: logoTripleTen,
@@ -134,13 +141,6 @@ function Resume() {
       logo: logoUdemy,
       start: 'Mar 2022',
       end: 'Feb 2023',
-    },
-    {
-      company: 'Red Lobster',
-      title: 'Line Cook',
-      logo: logoRedLobster,
-      start: 'Dec 2017',
-      end: 'Mar 2019',
     },
   ]
 
